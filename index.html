@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <h1>Survey Form</h1>
+        <p style="font-size: 2rem;">Thank You for Taking the Time</p>
+    </header>
+
+    <div class="container">
+        <div id="first-div">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" id="name">
+        </div>
+
+        <div id="second-div">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Your Email">
+        </div>
+
+
+        <div id="third-div">
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter Your Age">
+        </div>
+
+        <div class="forth-div">
+            <label for="food">What Position Are You In?</label>
+            <select name="food" id="dropdown">
+                <option value="full-time-job">Full Time Job</option>
+                <option value="full-time-learner">Full Time Learner</option>
+                <option value="part-time-job">Part Time Job</option>
+            </select>
+        </div>
+
+
+        <div id="checkbox">
+            <p>What Language Would You Like To Learn?</p>
+            <div>
+                <input class="checkbox-input" type="checkbox" id="javaScript">
+                <label class="checkbox-label" for="javaScript">JavaScript</label>
+            </div>
+
+            <div>
+                <input class="checkbox-input" type="checkbox" id="swift">
+                <label class="checkbox-label" for="swift">Swift</label>
+            </div>
+
+            <div>
+                <input class="checkbox-input" type="checkbox" name="python" id="python">
+                <label class="checkbox-label" for="python">Python</label>
+            </div>
+
+        </div>
+
+
+
+
+        <p>Any comments or suggestions?</p>
+        <textarea name="comment" id="comment" cols="30" rows="10">Enter Your Comment Here </textarea>
+        <div id="btn-box">
+            <button>Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
